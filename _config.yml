@@ -12,15 +12,15 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: "ko"
 title: "INGHYEE BLOG"
-title_separator: ":"
+title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "INGHYEE BLOG"
-description: "풀스택 개발자를 꿈꾸는 블로그"
+description: "INGHYEE BLOG"
 url: "https://inghyee.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "inghyee/blog_comments"
@@ -29,8 +29,8 @@ logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x8
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
-comments: "utterances"
-  provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+comments:
+  provider: "utterances"
   disqus:
     shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -59,7 +59,7 @@ reCaptcha:
 atom_feed:
   path: # blank (default) uses feed.xml
   hide: # true, false (default)
-search: true
+search: # true, false (default)
 search_full_content: # true, false (default)
 search_provider: # lunr (default), algolia, google
 algolia:
@@ -103,9 +103,9 @@ analytics:
 author:
   name: "INGHYEE"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "풀스택 개발자를 꿈꾸고 있습니다."
-  location: "Korea"
-  email: "inghyee@gmail.com"
+  bio: "개발과 디자인"
+  location: "Somewhere"
+  email:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
